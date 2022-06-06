@@ -13,7 +13,7 @@ public class While {
          * После ввода слова "Stop" прогорамма завершается
          */
         String input = READER.readLine();
-        while(input.equalsIgnoreCase("stop")){
+        while(!input.equalsIgnoreCase("stop")){
             System.out.println("your input: " + input);
             input = READER.readLine();
         }

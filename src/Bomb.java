@@ -17,7 +17,7 @@ public class Bomb {
         } else {
             System.out.println("Обезврежена");
         } */
-        
+
         for (int i = 10; i >=0; i--) {
             System.out.println("До взрыва осталось " + i + " секунд");
             Thread.sleep(1000);

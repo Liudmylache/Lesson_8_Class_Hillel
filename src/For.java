@@ -5,10 +5,12 @@ public class For {
         for (int i = 0; i < 100; i++){
             System.out.println("i = " + (i + 1));
         }
+        System.out.println("----------------");
 
         for (int a = 100; a >= 1; a--){
             System.out.println("a = " + a);
         }
+        System.out.println("----------------");
 
         for (int b = 0; b < 100; b++){
             if (b % 4 == 0 || b % 5 == 0) {
